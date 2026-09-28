@@ -1,6 +1,8 @@
 # Serene Lavoisier
 
-A modern, eco-conscious productivity suite built with Next.js.
+**Real News. Deeper Perspectives.** A calm, editorial news portal built with Next.js, with optional AI summaries powered by free OpenRouter models using each user's own API key.
+
+Contributors and coding agents: start with [`AGENTS.md`](AGENTS.md).
 
 ## Getting Started
 
@@ -20,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to load **Poppins** (UI) and **Newsreader** (editorial) from Google Fonts. Design tokens live in `app/globals.css`, and the token preview is at `/design`.
 
 ## Learn More
 

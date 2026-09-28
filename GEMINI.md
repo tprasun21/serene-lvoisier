@@ -1,5 +1,7 @@
 # Project Permissions and Security Rules
 
+> The full project guide is [`AGENTS.md`](AGENTS.md) (plus the nested `AGENTS.md` files it lists). Read it before starting any task. The permission rules below are repeated here so they're enforced even if you don't read further.
+
 ## Tool Execution & Command Permissions
 
 The following permissions are enforced for all agent operations in this workspace:
