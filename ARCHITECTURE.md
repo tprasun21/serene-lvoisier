@@ -2,6 +2,8 @@
 
 This document outlines the architectural blueprint for building scalable, type-safe Create, Read, Update, and Delete (CRUD) applications in this Next.js project.
 
+> **Project rules come first.** [`AGENTS.md`](AGENTS.md) is the project contract, and folder-level `AGENTS.md` files (e.g. `components/ui/`, `lib/ai/`, `lib/sources/`, `lib/db/`) add detailed rules. If this guide and AGENTS.md disagree, AGENTS.md wins. Server Actions handle UI mutations; route handlers in `app/api/` handle auth, cron, AI and external calls. Database code lives in `lib/db/`.
+
 ---
 
 ## 1. Directory Structure Map
